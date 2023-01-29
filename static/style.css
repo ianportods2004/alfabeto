@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#menu{
+    position: fixed;
+    left: -292px;
+    height:100%;
+    width:15%;
+    transition: left 0.5s linear;
+}
+.navbar-bran{
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    font-size: var(--bs-navbar-brand-font-size);
+    color: rgb(179, 40, 204);
+    text-decoration: none;
+    white-space: nowrap;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+div.video{
+    background-color: rgba(185, 70, 185, 0);
+    padding: 20px;
+    position: relative;
+    padding-bottom: 50%;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+
+}
