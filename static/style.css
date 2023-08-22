@@ -43,3 +43,25 @@ div.video > iframe{
 
 
 }
+
+.img-container {
+    position: relative;
+    display: inline-block;
+}
+
+.instagram-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    cursor: pointer;
+}
+
+.img-container:hover img {
+    opacity: 0.8;
+}
+
+.img-container:hover .instagram-button {
+    display: block;
+}
